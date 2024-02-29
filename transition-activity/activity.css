@@ -1,1 +1,31 @@
+button{
+     background-color: ghostwhite;
+}
+button:hover{
+    background-color: cornflowerblue;
+    transition: 2s;
+    color: white;
+}
+.caption img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.caption{
+    color: white;
+        overflow: hidden;
 
+}
+.container{
+    position: relative;
+    text-align: center;
+}
+.container:hover{
+    height: 100%;
+}
+.text{
+    text-align: left;
+    position: absolute;
+    top: 82%;
+    left: 12%;
+}
